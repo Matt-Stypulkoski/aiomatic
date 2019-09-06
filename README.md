@@ -1,4 +1,4 @@
-# aiomatic
+# AI-o-matic
 
 Install Django
 
