@@ -16,11 +16,17 @@ To use docker
 
 build the docker image from root directory:
 ```
-docker build --tag aiomatic (or some other name) . 
+docker build --tag aiomatic . 
 ```
 run the docker image
 ```
-docker run --name aiomatic-app (or some other name) -p 8000:8000 aiomatic
+docker run --name aiomatic-app -p 8000:8000 aiomatic
 ```
+`aiomatic-app` is the container name.
 
 and go to http://127.0.0.1:8000/aiomaticProject/
+
+To stop `docker run`, open another terminal in you working directory and run:
+```
+docker stop aiomatic-app
+``` 
