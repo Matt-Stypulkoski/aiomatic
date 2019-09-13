@@ -16,7 +16,7 @@ To use docker
 
 build the docker image from root directory:
 ```
-docker build --tag aiomatic (or some other name) . 
+docker build . --tag aiomatic (or some other name) . 
 ```
 run the docker image
 ```
