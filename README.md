@@ -20,7 +20,7 @@ docker build --tag aiomatic .
 ```
 run the docker image
 ```
-docker run --name aiomatic-app -p 8000:8000 aiomatic
+docker run -p 8000:8000 -i -t aiomatic
 ```
 `aiomatic-app` is the container name.
 
