@@ -29,6 +29,7 @@ def train_model(training_data_path):
 # TODO
 def test_model(model):
     print("Will test the trained model returned by the server response in this function")
+    print(model)
 
 
 train_model(TRAIN_DATA_DIR)
