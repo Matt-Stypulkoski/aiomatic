@@ -24,7 +24,7 @@ and prepending cat. and dog. where needed.
 
 
 ### Once you have the data locally:
-Put the data in the **train** folder. 
+Create a folder in client called **train**. Put the data in the **train** folder. 
 
 ## To Run:
 Run `python client.py`
