@@ -25,7 +25,7 @@ SECRET_KEY = 'wls-7&*-wl34f-@ct7b(y*!#a2uo!t5hg*e7lej3zh4i8njo8y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1']
 
 # Request size management
 DATA_UPLOAD_MAX_NUMBER_FIELDS = 27000
