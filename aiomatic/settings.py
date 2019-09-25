@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1']
 
+# Request size management
+DATA_UPLOAD_MAX_NUMBER_FIELDS = 27000
 
 # Application definition
 
